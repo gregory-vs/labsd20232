@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dell\Desktop\UFMG\labsd\aula 6\simulation\modelsim
+Ecalculador_media
+Z1 w1695081561
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Dell\Desktop\UFMG\labsd\aula 6\simulation\modelsim
+Z6 8C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media.vhd
+Z7 FC:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media.vhd
+l0
+L5
+VmCo456e]A?RoRk:Um=D690
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1695081643.436000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media.vhd|
+Z11 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 ^_MAW3<kH=0n:61JGKg6Z1
+!i10b 1
+Aarch
+R2
+R3
+R4
+DEx4 work 16 calculador_media 0 22 mCo456e]A?RoRk:Um=D690
+l24
+L23
+VO=kS7Q:@U_j0Az=WhGIo_1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 j1MC=^<m^[`V_[:7I>a`[1
+!i10b 1
+Ecalculador_media_tb
+Z14 w1695081279
+R3
+R4
+R5
+Z15 8C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media_tb.vhd
+Z16 FC:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media_tb.vhd
+l0
+L4
+V[WCk4JI?8[4G2AYZzCM1Z3
+!s100 XP:?o04Da8ZVn>JQCUmJA0
+R8
+31
+!i10b 1
+Z17 !s108 1695081643.585000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media_tb.vhd|
+Z19 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 6/calculador_media_tb.vhd|
+R12
+R13
+Ateste
+R3
+R4
+DEx4 work 19 calculador_media_tb 0 22 [WCk4JI?8[4G2AYZzCM1Z3
+l27
+L10
+Vbm31L@ORAYR7A5e1Fd[OX3
+!s100 0Y@G1:H^OlW0[:nR3P6kZ2
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13

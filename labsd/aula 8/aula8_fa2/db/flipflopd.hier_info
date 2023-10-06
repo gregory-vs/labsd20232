@@ -1,0 +1,21 @@
+|flipflopd
+D => ~NO_FANOUT~
+CLK => fa_cin.CLK
+CLK => Q~reg0.CLK
+Q <> Q~reg0
+
+
+|flipflopd|fulladder:u1
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

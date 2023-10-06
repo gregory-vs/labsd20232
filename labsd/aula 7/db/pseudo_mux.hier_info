@@ -1,0 +1,14 @@
+|pseudo_mux
+RESET => PS~3.DATAIN
+CLOCK => PS~1.DATAIN
+S => NS.S2_91.LATCH_ENABLE
+S => NS.S1_103.LATCH_ENABLE
+S => NS.S0_115.LATCH_ENABLE
+S => NS.S3_79.LATCH_ENABLE
+A => Selector1.IN0
+B => Selector1.IN1
+C => Selector1.IN2
+D => Selector1.IN3
+Q <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+
+

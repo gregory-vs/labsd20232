@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dell\Desktop\UFMG\labsd\aula 4\simulation\modelsim
+Ecomparador
+Z1 w1693867445
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Dell\Desktop\UFMG\labsd\aula 4\simulation\modelsim
+Z6 8C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador.vhd
+Z7 FC:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador.vhd
+l0
+L5
+VR7KLf?dfVI1UTBCOgUnS_1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1693867955.121000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador.vhd|
+Z11 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 7@[P>5cFVZmcCZd5_IUE21
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 10 comparador 0 22 R7KLf?dfVI1UTBCOgUnS_1
+l16
+L15
+VZB@g8WEi0W@Fno4QcAkmI2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 7JYD<TQN2dc9NV1:nAicb3
+!i10b 1
+Ecomparador_tb
+Z14 w1693867464
+R3
+R4
+R5
+Z15 8C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador_tb.vhd
+Z16 FC:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador_tb.vhd
+l0
+L4
+Vj;8@b5X=eRIOfHl;Je_c?2
+!s100 ]1c[zXe4[fYJ16ZL;WzeE3
+R8
+31
+!i10b 1
+Z17 !s108 1693867955.288000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador_tb.vhd|
+Z19 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 4/comparador_tb.vhd|
+R12
+R13
+Ateste
+R3
+R4
+DEx4 work 13 comparador_tb 0 22 j;8@b5X=eRIOfHl;Je_c?2
+l21
+L7
+Vee^?F=8J4lo`R8JVJVT381
+!s100 bX=]W5kbgXA^O[?73k[Y_2
+R8
+31
+!i10b 1
+R17
+R18
+R19
+R12
+R13

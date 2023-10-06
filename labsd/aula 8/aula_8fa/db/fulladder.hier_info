@@ -1,0 +1,20 @@
+|fulladder
+Cin => ff_d.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => ff_d.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => ff_d.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= ff_d.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|flipflop:u1
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

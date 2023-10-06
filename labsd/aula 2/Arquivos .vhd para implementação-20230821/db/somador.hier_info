@@ -1,0 +1,9 @@
+|somador
+x[0] => Add0.IN2
+x[1] => Add0.IN1
+y[0] => Add0.IN4
+y[1] => Add0.IN3
+s[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

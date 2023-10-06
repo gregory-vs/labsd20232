@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Dell\Desktop\UFMG\labsd\aula 7\simulation\modelsim
+Epseudo_mux
+Z1 w1695685830
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Dell\Desktop\UFMG\labsd\aula 7\simulation\modelsim
+Z7 8C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux.vhd
+Z8 FC:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux.vhd
+l0
+L6
+VO4L:i^ei_Ah_;AhL0mM:]3
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1695685987.218000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux.vhd|
+Z12 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 `P5S`Ga2ma@JY?XN615V:2
+!i10b 1
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 10 pseudo_mux 0 22 O4L:i^ei_Ah_;AhL0mM:]3
+l21
+L16
+V;6=@inAl1>JDX9`@lgo4i3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 ^ZhCe<>U0cCSEz`YAOdEz1
+!i10b 1
+Epseudo_mux_tb
+Z15 w1695685947
+R4
+R5
+R6
+Z16 8C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux_tb.vhd
+Z17 FC:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux_tb.vhd
+l0
+L4
+VK>0T98<YlXS6RLGd2fHF62
+!s100 nKSf]j5NLak_BVgX99:<60
+R9
+31
+!i10b 1
+Z18 !s108 1695685987.348000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux_tb.vhd|
+Z20 !s107 C:/Users/Dell/Desktop/UFMG/labsd/aula 7/pseudo_mux_tb.vhd|
+R13
+R14
+Ateste
+R4
+R5
+DEx4 work 13 pseudo_mux_tb 0 22 K>0T98<YlXS6RLGd2fHF62
+l19
+L7
+Vc2JYbMOTc]=J<jPVI@EOh0
+!s100 E8`Cf]jZX?H`1XEjGKSCW3
+R9
+31
+!i10b 1
+R18
+R19
+R20
+R13
+R14

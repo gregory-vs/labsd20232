@@ -1,0 +1,9 @@
+|flipflop
+CLOCK => A.IN0
+CLOCK => B.IN0
+D => A.IN1
+D => B.IN1
+Q <> Q
+QB <> QB
+
+

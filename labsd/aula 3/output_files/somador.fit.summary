@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Mon Aug 28 20:22:36 2023
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : somador
+Top-level Entity Name : somador
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total pins : 12 / 475 ( 3 % )
+Total virtual pins : 0
+Total PLLs : 0 / 4 ( 0 % )

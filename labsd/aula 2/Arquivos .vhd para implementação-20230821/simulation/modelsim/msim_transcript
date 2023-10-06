@@ -1,0 +1,56 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador
+# -- Compiling architecture comportamental of somador
+# 
+# vcom -93 -work work {C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/tb_somador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_somador
+# -- Compiling architecture teste of tb_somador
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs="+acc"  tb_somador
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_somador 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_somador(teste)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.somador(comportamental)
+# ** Failure: (vsim-3807) Types do not match between component and entity for port "x".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador/instancia_somador File: C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/somador.vhd Line: 7
+# ** Failure: (vsim-3807) Types do not match between component and entity for port "y".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador/instancia_somador File: C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/somador.vhd Line: 7
+# ** Failure: (vsim-3807) Types do not match between component and entity for port "s".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_somador/instancia_somador File: C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/somador.vhd Line: 8
+# Fatal error in file C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/somador.vhd
+#  while elaborating region: /tb_somador/instancia_somador
+# Fatal error in file C:/Users/Dell/Desktop/UFMG/labsd/aula 2/Arquivos .vhd para implementação-20230821/tb_somador.vhd
+#  while elaborating region: /tb_somador
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./somador_run_msim_rtl_vhdl.do PAUSED at line 12

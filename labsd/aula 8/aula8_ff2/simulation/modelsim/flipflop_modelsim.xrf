@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Dell/Desktop/UFMG/labsd/aula 8/aula8_ff2/flipflop.vhd
+source_file = 1, C:/Users/Dell/Desktop/UFMG/labsd/aula 8/aula8_ff2/flipflop_tb.vhd
+source_file = 1, C:/Users/Dell/Desktop/UFMG/labsd/aula 8/aula8_ff2/db/flipflop.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = flipflop
+instance = comp, \CLK~I\, CLK, flipflop, 1
+instance = comp, \D~I\, D, flipflop, 1
+instance = comp, \Q~reg0feeder\, Q~reg0feeder, flipflop, 1
+instance = comp, \Q~reg0\, Q~reg0, flipflop, 1
+instance = comp, \Q~I\, Q, flipflop, 1

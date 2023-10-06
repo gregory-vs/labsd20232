@@ -1,0 +1,27 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity flipflop is
+	port(
+		CLOCK: IN STD_LOGIC;
+		D: IN STD_LOGIC;
+		Q: OUT STD_LOGIC;
+	);
+end flipflop;
+
+archictecture structural of flipflop is
+	signal not_clock, nand1_out, nand2_out : std_logic;
+	
+	component NAND2
+		port(
+			A, B : in std_logic;
+			Y : out std_logic;
+		);
+	end component;
+	
+begin
+	U1: NAND2 port map(D, clock, nand1_out);
+	U2: NAND2 port map(not_clock, nand1_out, Q);
+	U3: NAND2 port map(clock, Q, nand2_out);
+	U4: NAND2 port map(nand2_out, D, not_clock);
+end structural;

@@ -1,0 +1,19 @@
+LIBRARY IEEE;
+use ieee.std_logic_1164.all;
+
+entity flipflop is
+	port( clock: in std_logic;
+		  D: in std_logic;
+	      Q: out std_logic
+	    );
+end flipflop;
+
+architecture RTL of flipflop is
+begin
+	process(clock)
+	begin
+		if (clock='1' and clock'event) then
+			Q <= D;
+		end if;
+	end process;
+end RTL;
