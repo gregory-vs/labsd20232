@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity myHardware is
+	port (x: in std_logic_vector(3 downto 0);
+			s: out std_logic_vector(3 downto 0)
+	);
+end myHardware;
+
+architecture beahvioral of myHardware is
+
+signal sig1: integer := 2;
+	
+	begin
+		process(x)
+			begin 
+				s <= x * sig1 * not x;
+		end process;
+end architecture;

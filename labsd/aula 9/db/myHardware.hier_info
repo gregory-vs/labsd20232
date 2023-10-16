@@ -1,0 +1,23 @@
+|myHardware
+x[0] => Mult0.IN8
+x[0] => Mult0.IN4
+x[1] => Mult0.IN7
+x[1] => Mult0.IN3
+x[2] => Mult0.IN6
+x[2] => Mult0.IN2
+x[3] => Mult0.IN5
+x[3] => Mult0.IN1
+s[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= <GND>
+s[10] <= <GND>
+s[11] <= <GND>
+
+
